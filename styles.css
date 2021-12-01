@@ -16,4 +16,6 @@ a {
 
 .bold {
     font-weight:bold;
+    font-style: normal;
+    text-decoration:dotted;
 }
