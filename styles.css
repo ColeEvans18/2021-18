@@ -13,3 +13,7 @@ li {
 a {
     color: blueviolet;
 }
+
+.bold {
+    font-weight:bold;
+}
