@@ -11,7 +11,7 @@ li {
 }
 
 a {
-    color: purple;
+    color: fuchsia;
     text-decoration: none;
     font-weight: bold;
 }
@@ -30,4 +30,5 @@ a:hover {
     border-width: 1px;
     border-style: solid;
     border-color: fuchsia;
+    
 }
