@@ -26,6 +26,7 @@ a:hover {
     text-decoration:dotted;
 }
 
-.funfont {
-    text-decoration: dotted;
+.box1 {
+    border-width: 1px;
+    border-style: solid;
 }
