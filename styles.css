@@ -12,6 +12,7 @@ li {
 
 a {
     color: blueviolet;
+    text-decoration: none;
 }
 
 .bold {
