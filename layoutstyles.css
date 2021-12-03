@@ -4,7 +4,7 @@ body {
 }
 
 .common {
-    background-color: #cccccc;
+    background-color: black;
     border: solid 2px white;
     position: absolute;
 }
@@ -14,34 +14,43 @@ body {
     left: 5px;
     right: 5px;
     height: 100px;
+    z-index: 2;
 }
 
 .leftmenu {
     top: 114px;
     left: 5px;
-    width: 100px;
+    width: 0px;
     bottom: 64px;
+    z-index: 1;
 }
 
 .mainbody {
     top: 114px;
-    bottom: 64px;
-    left: 114px;
+    bottom: 14px;
+    left: 14px;
     right: 114px; 
+    padding-left: 250px;
 }
 
 .rightmenu {
     top: 114px;
-    bottom: 64px;
+    bottom: 14px;
     right: 5px;
     width: 100px;
 }
 
 .footer {
     bottom: 5px;
-    height: 25px;
+    height: 0px;
     left: 5px;
     right: 5px;
     font-size: 8px;
-    color: #999999;
+    color: black;
+    text-align: center;
+}
+
+.subheader {
+    float: right;
+    padding-top: -50px;
 }
