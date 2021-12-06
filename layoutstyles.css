@@ -1,11 +1,11 @@
 body {
-    background-color: #555555;
+    background-color: black;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
 }
 
 .common {
     background-color: black;
-    border: solid 2px white;
+    /* border: solid 2px white; */
     position: absolute;
 }
 
@@ -15,6 +15,7 @@ body {
     right: 5px;
     height: 100px;
     z-index: 2;
+    border-bottom: solid 1px aquamarine;
 }
 
 .leftmenu {
@@ -31,6 +32,8 @@ body {
     left: 14px;
     right: 114px; 
     padding-left: 250px;
+    background-color: black;
+    border-bottom: solid 1px aquamarine;
 }
 
 .rightmenu {
@@ -38,16 +41,20 @@ body {
     bottom: 14px;
     right: 5px;
     width: 100px;
+    border-left: solid 1px aquamarine;
+    padding-left: 5px;
+    border-bottom: solid 1px aquamarine
 }
 
 .footer {
     bottom: 5px;
-    height: 0px;
+    height: 30px;
     left: 5px;
     right: 5px;
     font-size: 8px;
     color: black;
     text-align: center;
+    position: fixed;
 }
 
 .subheader {
